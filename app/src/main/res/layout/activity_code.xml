@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CodeActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verification Code"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/vc"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed"
+        android:hint="Enter 6 digit code"
+        android:textColorHint="@android:color/black"
+        android:layout_margin="30dp"
+        android:layout_below="@+id/vc"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/ed"
+        android:text="Verify"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/first"/>
+
+</RelativeLayout>
